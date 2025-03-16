@@ -12,7 +12,7 @@ This repository provides examples of generating textual descriptions from images
 - **Note**: The generated descriptions may include prompt-like text optimized for Stable Diffusion, which can introduce noise in some cases.
 
 #### Usage
-To run the CLIP-Interrogator on CrisisMMD or CrisisMMD dataset, use the following command:
+To run the CLIP-Interrogator on CrisisMMD or ScienceQA dataset, use the following command:
 ```bash
 python CLIP_Interrogator_CrisisMMD.py
 ```
