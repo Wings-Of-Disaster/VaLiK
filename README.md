@@ -39,11 +39,11 @@ conda env create -f environment.yml
 
 To facilitate your construction of the knowledge graph, we recommend installing the `Ollama` library to download models. You can also use `vLLM `or `Hugging Face` to download the corresponding VLMs.
 
-**Ollama**[https://ollama.com/](https://ollama.com/)
+**Ollama**  [https://ollama.com/](https://ollama.com/)
 
-**vLLM**[https://docs.vllm.ai/en/latest](https://docs.vllm.ai/en/latest/)
+**vLLM**  [https://docs.vllm.ai/en/latest](https://docs.vllm.ai/en/latest/)
 
-**Hugging Face**[https://huggingface.co/](https://huggingface.co/)
+**Hugging Face**  [https://huggingface.co/](https://huggingface.co/)
 
 ## Usage
 
