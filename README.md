@@ -16,7 +16,6 @@
 - [x] Paper
 - [ ] Optimized image embedding methods
 - [ ] Optimized multimodal retrieval mechanisms
-- [ ] Continuously updatable MMKGs construction framework
 
 ## Introduction
 In this work, we propose VaLiK, short for Vision-align-to-Language integrated Knowledge Graph, a novel framework designed to empower LLMs with advanced multimodal reasoning.
