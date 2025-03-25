@@ -2,7 +2,7 @@
 
 This repository provides examples of generating textual descriptions from images using different Visual Language Models (VLMs). The supported models include **CLIP-Interrogator**, **BLIP2**, **LLaVA**, and **Qwen2-VL**.
 
-<img src="./assets/example.png" width="800">
+<img src="../../assets/example.png" width="800">
 
 Files with dataset suffixes (e.g., `BLIP2_CrisisMMD.py`) contain specialized processing pipelines for particular datasets, while files without suffixes handle general image processing through the `--input` argument. Below we outline each model's distinctive characteristics and deployment requirements.
 
