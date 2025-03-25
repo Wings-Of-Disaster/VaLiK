@@ -59,6 +59,11 @@ If you want to test with the dataset we used, you can run to preprocess the data
 bash datasets/Preprocess_ScienceQA.sh
 ```
 
+For more convenient usage, we have updated the `src/Image_to_Text.py` file, allowing you to directly use different VLMs to process images by passing in parameters. The following is an example:
+```bash
+python src/Image_to_Text.py --input image/image_folder qwen2-vl --qwen2vl_version 72b --use_quantization
+```
+
 ### Cross-Modal Similarity Verification
 Pruning is a double-edged sword. Whether to employ pruning techniques and what thresholds to set depend on the specific requirements of the task. Different VLMs generate sentences in various forms. We've provided relevant resources under the `src/Prune` directory for reference.
 To conduct the verification, run the following command:
