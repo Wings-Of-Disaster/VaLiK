@@ -53,7 +53,6 @@ for root, dirs, files in os.walk(directory):
                 text = file.read()
                 caption_string += text
 
-caption_string = ""
 combine_string = result_str + caption_string
 
 rag.insert(combine_string)
