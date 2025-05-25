@@ -3,7 +3,7 @@ import os
 import inspect
 import logging
 from lightrag import LightRAG, QueryParam
-from lightrag.llm import ollama_model_complete, ollama_embed
+from lightrag.llm.ollama import ollama_model_complete, ollama_embed
 from lightrag.utils import EmbeddingFunc
 
 import json
