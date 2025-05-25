@@ -11,6 +11,7 @@
 
 ## News
 ```2025-05-25``` 🎉🎉 Update reliable image embedding methods: We improved image entity linking by treating each description as a separate chunk and recording its unique ID. This allows us to detect an entity, locate its corresponding chunk, and accurately retrieve the associated image.
+
 ```2025-03-17``` 🎉🎉 Release our paper: [Aligning Vision to Language: Text-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning](https://arxiv.org/abs/2503.12972).
 
 ## Release Plan
@@ -78,8 +79,13 @@ To construct the multimodal knowledge graph, run the following command:
 ```bash
 python src/LightRAG/lightrag_ollama_demo.py
 ```
-💡 **Note:** Different LLMs can impact graph construction time. We recommend using the **Qwen2.5** model for its balance of efficiency and effectiveness. Since **LightRAG** is continuously updated, we provide a reference example version of the code along with its corresponding dependencies for stable reproduction. You can optionally modify the `insert` function inside LightRAG to enable `split_by_character`, which splits each image description into distinct chunks, allowing precise linking between images and knowledge graph entities.
-⚠️ Additionally, the **Qwen2.5-7B** model in Ollama has unknown stuttering issues, so we recommend using the **32B** model instead.
+💡 **Tip:** Different LLMs can impact graph construction time. We recommend using the **Qwen2.5** model for its balance of efficiency and effectiveness.
+
+📌 **Info:** Since **LightRAG** is continuously updated, we provide a reference example version of the code along with its corresponding dependencies for stable reproduction.
+
+🔧 **Implementation:** You can optionally modify the `insert` function inside LightRAG to enable `split_by_character`, which splits each image description into distinct chunks, allowing precise linking between images and knowledge graph entities.
+
+⚠️ **Warning:** The **7B Qwen2.5** model in Ollama has unknown stuttering issues, so we recommend using the **32B** model instead.
 
 ## Performance
 ### Zero-Shot Multimodal Classification
