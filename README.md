@@ -85,7 +85,7 @@ python src/LightRAG/lightrag_ollama_demo.py
 
 🔧 **Implementation:** You can optionally modify the `insert` function inside LightRAG to enable `split_by_character`, which splits each image description into distinct chunks, allowing precise linking between images and knowledge graph entities.
 
-⚠️ **Warning:** The **7B Qwen2.5** model in Ollama has unknown stuttering issues, so we recommend using the **32B** model instead.
+⚠️ **Warning:** The **Qwen2.5-7B** model in Ollama has unknown stuttering issues, so we recommend using the **32B** model instead.
 
 ## Performance
 ### Zero-Shot Multimodal Classification
