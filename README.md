@@ -10,6 +10,8 @@
 </p>
 
 ## News
+```2025-06-26``` 🥳🥳 Our paper has been accepted to ICCV 2025!
+
 ```2025-05-25``` 🎉🎉 Update reliable image embedding methods: We improved image entity linking by treating each description as a separate chunk and recording its unique ID. This allows us to detect an entity, locate its corresponding chunk, and accurately retrieve the associated image.
 
 ```2025-03-17``` 🎉🎉 Release our paper: [Aligning Vision to Language: Text-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning](https://arxiv.org/abs/2503.12972).
