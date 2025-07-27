@@ -1,4 +1,4 @@
-<h1 align="center">Aligning Vision to Language: Text-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning</h1>
+<h1 align="center">Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning</h1>
 
 <p align="center">
     <a href="https://arxiv.org/abs/2503.12972">
@@ -14,7 +14,7 @@
 
 ```2025-05-25``` 🎉🎉 Update reliable image embedding methods: We improved image entity linking by treating each description as a separate chunk and recording its unique ID. This allows us to detect an entity, locate its corresponding chunk, and accurately retrieve the associated image.
 
-```2025-03-17``` 🎉🎉 Release our paper: [Aligning Vision to Language: Text-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning](https://arxiv.org/abs/2503.12972).
+```2025-03-17``` 🎉🎉 Release our paper: [Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning](https://arxiv.org/abs/2503.12972).
 
 ## Release Plan
 - [x] Paper
@@ -102,7 +102,7 @@ On [ScienceQA](https://github.com/lupantech/ScienceQA), the text-only LLMs Qwen2
 If you find this repository useful, please consider giving a star ⭐ and citation.
 ```
 @article{Liu_2025_VaLiK,
-  title={Aligning Vision to Language: Text-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning},
+  title={Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning},
   author={Liu, Junming and Meng, Siyuan and Gao, Yanting and Mao, Song and Cai, Pinlong and Yan, Guohang and Chen, Yirong and Bian, Zilin and Shi, Botian and Wang, Ding},
   journal={arXiv preprint arXiv:2503.12972},
   year={2025}
