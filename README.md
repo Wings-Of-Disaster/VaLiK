@@ -25,7 +25,7 @@
 In this work, we propose VaLiK, short for Vision-align-to-Language integrated Knowledge Graph, a novel framework designed to empower LLMs with advanced multimodal reasoning.
 Our pipeline, as shown in the figure, consists of three parts: CoE-based Visual to Language Modeling, Cross-Modal Similarity Verification, and MMKG Construction for Enhanced Reasoning.
 
-![Figure 1: VaLiK Pipeline](pipeline.jpg)
+![Figure 1: VaLiK Pipeline](pipeline.png)
 
 ## Install
 
@@ -96,7 +96,7 @@ On [CrisisMMD](https://crisisnlp.qcri.org/crisismmd), the classification accurac
 
 ### Zero-Shot Multimodal Question Answering
 On [ScienceQA](https://github.com/lupantech/ScienceQA), the text-only LLMs Qwen2.5-72B enhanced by VaLiK has achieved state-of-the-art results compared with zero/few-shot text-only LLMs, and it can also outperform most zero/few-shot VLMs. The model only has 72B parameters, and the storage scale of VaLiK only requires 489MB.
-<img src="./assets/result_scienceQA.png" width="800">
+<img src="./assets/result_ScienceQA.png" width="800">
 
 ## Citation
 If you find this repository useful, please consider giving a star ⭐ and citation.
