@@ -103,7 +103,7 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 ```
 @article{Liu_2025_VaLiK,
   title={Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning},
-  author={Liu, Junming and Meng, Siyuan and Gao, Yanting and Mao, Song and Cai, Pinlong and Yan, Guohang and Chen, Yirong and Bian, Zilin and Shi, Botian and Wang, Ding},
+  author={Liu, Junming and Meng, Siyuan and Gao, Yanting and Mao, Song and Cai, Pinlong and Yan, Guohang and Chen, Yirong and Bian, Zilin and Wang, Ding and Shi, Botian},
   journal={arXiv preprint arXiv:2503.12972},
   year={2025}
 }
